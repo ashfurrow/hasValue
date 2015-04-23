@@ -1,5 +1,5 @@
-extension Optional {
-    var hasValue: Bool {
+public extension Optional {
+    public var hasValue: Bool {
         switch self {
         case .None:
             return false
